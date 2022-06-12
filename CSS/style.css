@@ -29,6 +29,7 @@ body {
   padding: 80px;
   border-radius: 15px;
   position: relative;
+  max-width: 615px;
 }
 
 .advice-id {
@@ -52,4 +53,10 @@ body {
   background-color: var(--neon-green);
   padding: 15px;
   border-radius: 50%;
+  transition: all 0.3s;
 } 
+
+.quote-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 15px hsl(150, 100%, 66%);
+}
