@@ -5,7 +5,7 @@ const quoteBtn = document.querySelector('.quote-btn');
 const URL = 'https://api.adviceslip.com/advice';
 
 const handleClick = () => {
-  fetch(URL)
+  fetch(URL, { cache: 'no-store' })
     .then((response) => response.json())
     .then((adviceResponse) => {
       adviceId.innerHTML = `Advice #${adviceResponse.slip.id}`;
