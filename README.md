@@ -23,19 +23,24 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Vernacci)
-- Live Site URL: [Add live site URL here](https://vernacci.github.io/advice-generator-app-main/)
+- Solution URL: [Solution URL](https://github.com/Vernacci)
+- Live Site URL: [Live Site](https://vernacci.github.io/advice-generator-app-main/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS
+- CSS (responsive)
 - Flexbox
 - JavaScript
 
+### What i learned
+
+My main objective with this project was to use and understand how to fetch an API
+using only vanilla technologies.
+
 ## Author
 
-- Website - [Vernacci](https://github.com/Vernacci)
+- Github - [Vernacci](https://github.com/Vernacci)
 - Frontend Mentor - [@Vernacci](https://www.frontendmentor.io/profile/Vernacci)

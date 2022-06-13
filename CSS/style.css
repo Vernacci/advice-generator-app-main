@@ -21,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 500px;
+ 
 }
 
 .content {
@@ -29,7 +30,7 @@ body {
   padding: 80px;
   border-radius: 15px;
   position: relative;
-  max-width: 615px;
+  width: 520px;
 }
 
 .advice-id {
@@ -49,7 +50,7 @@ body {
 
 .quote-btn {
   position: absolute;
-  top: 265px;
+  bottom: -2rem;
   background-color: var(--neon-green);
   padding: 15px;
   border-radius: 50%;
@@ -59,4 +60,31 @@ body {
 .quote-btn:hover {
   cursor: pointer;
   box-shadow: 0 1px 15px hsl(150, 100%, 66%);
+}
+
+@media (max-width: 605px)  {
+  .content {
+    padding: 50px;
+    width: 500px;
+  }
+  .quote-btn {
+    bottom: -2rem;
+  }
+}
+@media (max-width: 400px) {
+  .content {
+    padding: 30px;
+    width: 300px;
+  }
+  .divider {
+    width: 300px;
+  }
+  .quote-btn {
+    bottom: -1.50rem;
+    width: 16px;
+    height: 16px;
+  }
+  .quote {
+    font-size: 0.9375rem;
+  }
 }
