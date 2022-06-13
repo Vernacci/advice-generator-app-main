@@ -8,11 +8,11 @@ const handleClick = () => {
   fetch(URL, { cache: 'no-store' })
     .then((response) => response.json())
     .then((adviceResponse) => {
-      adviceId.innerHTML = `Advice #${adviceResponse.slip.id}`;
-      quote.innerHTML = adviceResponse.slip.advice;
+      adviceId.textContent = `Advice #${adviceResponse.slip.id}`;
+      quote.textContent = adviceResponse.slip.advice;
     })
     .catch((error) => {
-      adviceId.innerHTML = 'Could not fetch advice id';
-      quote.innerHTML = 'Could not fetch advice';
+      adviceId.textContent = 'Could not fetch advice id';
+      quote.textContent = 'Could not fetch advice';
     });
 };
